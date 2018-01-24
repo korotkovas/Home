@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+header ul {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+header li {
+	 list-style-type: none;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+.intro {
+	text-align: center;
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	top: 40%;
+	left: 0;
+	right: 0;
+}
+
+video {
+	max-width: 100%;
+}
+
+.video {
+	position: relative;
+}
+
